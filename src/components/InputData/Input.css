@@ -1,0 +1,36 @@
+.input-button{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(7, 7, 95);
+    color: #ffff;
+    border-radius: 2px;
+    border: hsl(240, 100%, 50%) solid 1px;
+    outline: none;
+    cursor: pointer;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-button:hover {
+	background: hsl(240, 100%, 50%);
+}
+
+.inputData {
+    display: inline-block;
+}
+
+.button-bg {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f7b83b;
+    margin: 10px;
+    box-shadow: 0 0 4px 0 #2f333a;
+    border: solid 2px rgba(255, 255, 255, 0.4);
+    cursor:pointer;
+}
+.button-bg:hover {
+    background-color: #ffaa00;
+    font-weight: 500;
+}
